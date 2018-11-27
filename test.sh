@@ -8,5 +8,7 @@ scala Summer Work so hard
 scalac FallWinterSpringSummer.scala
 scala FallWinterSpringSummer
 
+scala basicOP_04.scala
+
 scalac Rational.scala TestRational.scala
 scala TestRational
