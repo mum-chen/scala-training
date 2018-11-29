@@ -11,7 +11,7 @@ class SlowHeadQueue[T](smele: List[T]) {
   def enqueue(x: T) = new SlowAppendQueue(x :: smele)
 }
 
-class Queue[T](
+class Queue[T] private (
   private val leading: List[T],
   private val trailing: List[T]
 ) {
